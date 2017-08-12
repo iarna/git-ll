@@ -19,6 +19,8 @@ $ git ll
 
 Output looks like this:
 
+![example output, see text version below](https://shared.by.re-becca.org/misc/git-ll.png)
+
 ```
 637f2548f^#17748 [#17637] finalize: When rolling back use symlink project-relative path (#17748) (@iarna on 2017-07-12 ↑@zkat)
 ```
