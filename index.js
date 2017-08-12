@@ -94,5 +94,5 @@ fun(spawn('git', ['log', '--no-abbrev-commit', pretty]).stdout, {encoding: 'utf8
     out += `)${cc.color('reset')}`
     return out + '\n'
   })
-  .pipe(process.stdout)
+  .pipe(process.stdout.isTTY ? spawn('less', ['-REX'], {stdio: ['pipe', 1, 2]}).stdin : process.stdout)
   .on('error', () => process.exit(1))
