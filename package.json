@@ -1,0 +1,17 @@
+{
+  "name": "@iarna/git-ll",
+  "version": "1.0.0",
+  "description": "git log with npm git repo metadata",
+  "bin": {
+    "git-ll": "index.js"
+  },
+  "main": "index.js",
+  "keywords": [],
+  "author": "Rebecca Turner <me@re-becca.org> (http://re-becca.org/)",
+  "license": "ISC",
+  "dependencies": {
+    "byline": "^5.0.0",
+    "console-control-strings": "^1.1.0",
+    "funstream": "^2.2.0"
+  }
+}
