@@ -1,6 +1,6 @@
 {
   "name": "@iarna/git-ll",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "git log with npm git repo metadata",
   "bin": {
     "git-ll": "index.js"
